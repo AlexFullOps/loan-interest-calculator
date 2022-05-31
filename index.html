@@ -7,11 +7,52 @@
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="style.css">
     <title>Loan Interest Calculator</title>
 </head>
 <body>
+    
+    <main>
+        <h1>Calculadora de juros de empréstimo</h1>
+    </main>
+    <div class="table-sec">
+        <table>
+            <tr>
+                <th>Insira os dados requeridos:</th>
+                <td></td>
+                <br>
+                <!--
+                    <th>Saldo - Acumulado - Juros</th>
+                -->
+            </tr>
+
+            <tr>
+                <td>Valor do empréstimo:</td>
+        
+                <td>
+                    <input id="amt" onchange="calculate();"></td>
+                <td rowspan=8>
+                    <canvas id="graph" width="500" height="350">                    
+                    </canvas>
+                </td>
+            </tr>
+            <tr>
+                <td>Juro anual:</td>
+                <td>
+                    <input id="apr" onchange="calculate();">
+                </td>
+            </tr>
+            <tr>
+                <td>Tempo de reembolso (em anos):</td>
+                <td>
+                    <input id="years" onchange="calculate();">
+                </td>
+                <tr>
+                    <td>CEP:</td>  
+                    <td>
+                        <input id="zipcode" onchange="calculate();">
+                    </td>  
+    </div>
     
 </body>
 </html>

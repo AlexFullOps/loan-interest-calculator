@@ -9,4 +9,43 @@ body{
     width: 100%;
     background-color: black;
 }
+h1{
+    color: aqua;
+    text-align: center;
+    text-shadow: 1px 1px white;
+}
+
+.output{ 
+    font-weight: bold; 
+} 
+#payment{ 
+    text-decoration: underline; 
+}
+#graph{ 
+    border: 1px solid aqua; 
+}
+.table-sec{
+    width: 90%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkblue;
+}  
+td{ 
+    color: azure;
+    font-weight: 500;
+    vertical-align: top; 
+} 
+th{
+    color: aqua;
+    font-weight: 900;
+    font-size: 20px;
+
+}
+table{
+    text-align: center;
+}
+#amt{
+    margin-right: 10px;
+}
 
