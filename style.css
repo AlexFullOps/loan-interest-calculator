@@ -48,4 +48,16 @@ table{
 #amt{
     margin-right: 10px;
 }
+.btn-calculator{
+    background-color: aqua;
+    color: black;
+    text-shadow: 1px 1px white;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+#lenders{
+    color: azure;
+}
 

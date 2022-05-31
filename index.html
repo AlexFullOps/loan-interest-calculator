@@ -51,8 +51,40 @@
                     <td>CEP:</td>  
                     <td>
                         <input id="zipcode" onchange="calculate();">
-                    </td>  
-    </div>
+                    </td>
+                    <tr>
+                        <th>Pagamentos aproximados:</th>
+                        <td>
+                            <button class="btn-calculator" onclick="calculate();">Calcular</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Pagamento mensal:</td>
+                        <td>
+                            $<span class="output" id="payment"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Total do pagamento:</td>
+                        <td>
+                            $<span class="output" id="total"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Juros totais:</td>
+                        <td>
+                            $<span class="output" id="totalinterest"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Patrocínio:</th>
+                        <td colspan=2></td>
+                            
+                            <div id="lenders">Solicite seu empréstimo com um desses credores:</div>
+                        </td>
+                    </tr>
+        </table>
     
+    <script src="/calculator.js"></script>
 </body>
 </html>
